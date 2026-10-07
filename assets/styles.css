@@ -293,7 +293,7 @@ h2 em {
 
 .hero-image img {
   width: 100%;
-  aspect-ratio: 0.8;
+  aspect-ratio: 1.05;
   object-fit: cover;
   object-position: center;
   background: var(--secondary);
@@ -756,6 +756,10 @@ h2 em {
   .hero-image {
     width: min(82%, 24rem);
     justify-self: center;
+  }
+
+  .hero-image img {
+    aspect-ratio: 1.12;
   }
 
   .scroll-cue {

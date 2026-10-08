@@ -156,7 +156,7 @@ a:focus-visible {
   font-size: 0.64rem;
   font-weight: 700;
   letter-spacing: 0.16em;
-  line-height: 1.5;
+  line-height: .5;
   text-transform: uppercase;
 }
 
@@ -293,7 +293,7 @@ h2 em {
 
 .hero-image img {
   width: 100%;
-  aspect-ratio: 1.05;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   object-position: center;
   background: var(--secondary);
@@ -756,10 +756,6 @@ h2 em {
   .hero-image {
     width: min(82%, 24rem);
     justify-self: center;
-  }
-
-  .hero-image img {
-    aspect-ratio: 1.12;
   }
 
   .scroll-cue {
